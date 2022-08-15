@@ -11,7 +11,7 @@ logging.basicConfig(
 )
 print("Bot started...")
 
-DATABASE_URL = 'postgres://kvmkncdtlrzgey:72205a5bb789a9e501a973ac0b9aecb5843db2f5790cd4914952586bab27f778@ec2-34-193-44-192.compute-1.amazonaws.com:5432/d8hb9hgmg5r0l9'
+DATABASE_URL = <my postgreSQL url>
 msg_db = psycopg2.connect(DATABASE_URL, sslmode='require')
 #  create a new cursor
 mycursor = msg_db.cursor()
