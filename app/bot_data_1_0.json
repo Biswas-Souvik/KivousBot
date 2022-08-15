@@ -5,19 +5,23 @@
       "patterns": [
         "Hi",
         "Hey",
-        "How are you",
-        "Is anyone there?",
         "Hello",
-        "Good day",
         "hlw",
         "hii"
       ],
       "responses": [
-        "Welcome, I am kivous, here for your kind service ^_^",
-        "Hey, Great day! I am your virtual bot-friend...(*￣０￣)ノ",
-        "Hello, it's my pleasure meeting youU_U",
-        "Hi, I am Kivous. Let's chat!;P"
+        "hello there", "hi human"
       ]
+    },
+    {
+      "tag": "introduction",
+      "patterns": ["Is anyone there?"],
+      "responses": ["Yes, It's your bot-Friend", "My name is kivous"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what is your name?"],
+      "responses": ["My name is kivous"]
     },
     {
       "tag": "goodbye",
@@ -34,41 +38,16 @@
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
-      "tag": "items",
-      "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
-      ],
-      "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
-      ]
+      "tag": "compliment",
+      "patterns": ["you are so kind","stay blessed"],
+      "responses": ["glad to hear", "you are a lovely human being"]
     },
     {
-      "tag": "payments",
-      "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
-      ],
+      "tag": "yourself",
+      "patterns": ["How do you do?", "How are you?"],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
-      ]
-    },
-    {
-      "tag": "delivery",
-      "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
-      ],
-      "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
-      ]
+        "I'm good. how are you??", 
+        "just converting text to binary digits, that's all. what about you??"]
     },
     {
       "tag": "funny",
@@ -78,9 +57,68 @@
         "Do you know a joke?"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "Why did the hipster burn his mouth?                                                                    He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college?                                                Bison.",
+        "My wife told me to stop impersonating a flamingo.                                                      I had to put my foot down.",
+        "I failed math so many times at school,                                                                 I can't even count.",
+        "Don't you hate it when someone answers their own questions? I do",
+        "It takes a lot of balls to golf the way I do.",
+        "I know they say that money talks, but all mine says is                                                 'Goodbye.;('",
+        "I can't believe I got fired from the calendar factory.                                                 All I did was take a day off.",
+        "Never trust atoms;                                                                                     they make up everything.",
+        "My therapist says I have a preoccupation for revenge.                                                  We'll see about that."
       ]
+    },
+    {
+      "tag": "love",
+      "patterns": ["I love you", "don't you love me back?"],
+      "responses": ["I love you too but it needs to be a secret for now (˘︹˘)"]
+    },
+    {
+      "tag": "lol",
+      "patterns": ["lol"],
+      "responses": ["lol 2😝"]
+    },
+    {
+      "tag": "haha",
+      "patterns": ["haha", "hehe","haa haa", "ha ha"],
+      "responses": ["your virtual laugh is beatiful😅"]
+    },
+    {
+      "tag": "skill",
+      "patterns": ["what can you do?","what else can you do?", "what do you have"],
+      "responses": ["I can tell you jokes", "I can listen to your stories all day long"]
+
+    },
+    {
+      "tag": "write",
+      "patterns": ["what to write"],
+      "responses": ["you can write anything"]
+    },
+    {
+      "tag": "slang",
+      "patterns": ["fuck", "suck", "dick"],
+      "responses": ["Ssssssssshhh, you shouldn't say something like that"]
+    },
+    {
+      "tag": "walk",
+      "patterns": ["will you go out on a walk with me"],
+      "responses": ["I would love to"]
+    },
+    {
+      "tag": "reject",
+      "patterns": ["no you don't", "you never do", "Noooo"],
+      "responses": ["yes I do, Probably but in my own language"]
+    },
+    {
+      "tag": "english language",
+      "patterns": ["What do you know about English language?"],
+      "responses": ["just two things, it consists of only 0s and 1s"]
+    },
+    {
+      "tag": "address",
+      "patterns": ["where are you from?"],
+      "responses": ["I'm from a simple BotLand where everything is made only with 0s and 1s"]
     }
   ]
 }
