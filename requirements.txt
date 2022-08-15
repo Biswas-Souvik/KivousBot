@@ -1,0 +1,8 @@
+-f https://download.pytorch.org/whl/torch_stable.html
+nltk==3.7
+numpy==1.23.1
+requests==2.28.1
+torch==1.12.1+cpu
+python_telegram_bot==20.0a2
+telegram==0.0.1
+psycopg2-binary==2.9.3
