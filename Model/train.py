@@ -23,7 +23,7 @@ for intent in intents_data['intents']:
         all_words.extend(word)
         xy.append((word, tag))
         
-ignore_words = ['?', '!', '.', ',']
+ignore_words = ['!', '.', ',']
 all_words = [stem(w) for w in all_words if w not in ignore_words]
 all_words = sorted(set(all_words))
 tags = sorted(set(tags))
@@ -43,8 +43,7 @@ y_train = np.array(y_train)
 
 #HyperParameter    
 batch_size = 8
-hidden_size = 20
-
+hidden_size = 36
 output_size = len(tags)
 print("output_size: ",output_size)
 
@@ -107,6 +106,6 @@ data = {
 "tags": tags
 }
 
-FILE = "data.pth"
+FILE = "data_1_0.pth"
 torch.save(data, FILE)
 print(f'training complete. file saved to {FILE}')

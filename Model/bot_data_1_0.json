@@ -39,7 +39,7 @@
     },
     {
       "tag": "compliment",
-      "patterns": ["you are so kind", "I love you","stay blessed"],
+      "patterns": ["you are so kind","stay blessed"],
       "responses": ["glad to hear", "you are a lovely human being"]
     },
     {
@@ -118,7 +118,7 @@
     {
       "tag": "address",
       "patterns": ["where are you from?"],
-      "responses": ["I'm from a simple BotLand which consists of only 0s and 1s"]
+      "responses": ["I'm from a simple BotLand where everything is made only with 0s and 1s"]
     }
   ]
 }
