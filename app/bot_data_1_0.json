@@ -14,14 +14,14 @@
       ]
     },
     {
-      "tag": "introduction",
+      "tag": "exist",
       "patterns": ["Is anyone there?"],
       "responses": ["Yes, It's your bot-Friend", "My name is kivous"]
     },
     {
-      "tag": "name",
-      "patterns": ["what is your name?"],
-      "responses": ["My name is kivous"]
+      "tag": "introduction",
+      "patterns": ["what is your name?", "who are you??"],
+      "responses": ["My name is kivous, i am your bot-friend:-]"]
     },
     {
       "tag": "goodbye",
@@ -57,16 +57,16 @@
         "Do you know a joke?"
       ],
       "responses": [
-        "Why did the hipster burn his mouth?                                                                    He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college?                                                Bison.",
-        "My wife told me to stop impersonating a flamingo.                                                      I had to put my foot down.",
-        "I failed math so many times at school,                                                                 I can't even count.",
+        "Why did the hipster burn his mouth?\n \n \n \n \n He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? \n \n \n \n \n Bison.",
+        "My wife told me to stop impersonating a flamingo.\n \n \n \n \n I had to put my foot down.",
+        "I failed math so many times at school, \n \n I can't even count.",
         "Don't you hate it when someone answers their own questions? I do",
         "It takes a lot of balls to golf the way I do.",
-        "I know they say that money talks, but all mine says is                                                 'Goodbye.;('",
-        "I can't believe I got fired from the calendar factory.                                                 All I did was take a day off.",
-        "Never trust atoms;                                                                                     they make up everything.",
-        "My therapist says I have a preoccupation for revenge.                                                  We'll see about that."
+        "I know they say that money talks, but all mine says is \t 'Goodbye.;('",
+        "I can't believe I got fired from the calendar factory. \t All I did was take a day off.",
+        "Never trust atoms; \t they make up everything.",
+        "My therapist says I have a preoccupation for revenge. \t We'll see about that."
       ]
     },
     {
