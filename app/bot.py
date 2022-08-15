@@ -4,7 +4,7 @@ from telegram.ext import filters, MessageHandler, ApplicationBuilder, CommandHan
 from chat import get_response
 
 
-TOKEN = '5303496478:AAFLOetLQUEtAA-4s8iCTH7F7fk7ggX6ICc'
+TOKEN = '<my telegram token>'
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     level=logging.INFO
